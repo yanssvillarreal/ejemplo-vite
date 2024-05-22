@@ -2,10 +2,12 @@ import './style.css'
 import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
-import { person, sayHello } from './modules.js'
+import DEV_LAN, { person as personObject, sayHello } from './modules.js'
 
-console.log(person)
-sayHello()
+// console.log(person)
+// sayHello()
+// console.log(DEV_LAN)
+console.log(personObject)
 
 document.querySelector('#app').innerHTML = `
   <div>

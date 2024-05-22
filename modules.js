@@ -6,3 +6,6 @@ export const person = {
 export const sayHello = () => {
  console.log('Hello!')
 }
+
+const DEV_LAN = 'JavaScript'
+export default DEV_LAN
